@@ -17,17 +17,48 @@ Replace this paragraph with your own summary of what your version does.
 
 ## How The System Works
 
-Explain your design in plain language.
+This recommender simulates a classic ranking pipeline:
 
-Some prompts to answer:
+1. Input: user preferences (`genre`, `mood`, `target energy`) and a value of `k`.
+2. Process: loop through every song in `data/songs.csv`, score each song, and store `(song, score, explanation)`.
+3. Output: sort by score and return the top-k recommendations.
 
-- What features does each `Song` use in your system
-  - For example: genre, mood, energy, tempo
-- What information does your `UserProfile` store
-- How does your `Recommender` compute a score for each song
-- How do you choose which songs to recommend
+### Algorithm Recipe (Final)
 
-You can include a simple diagram or bullet list if helpful.
+- `+2.0` points for an exact genre match.
+- `+1.0` point for an exact mood match.
+- Energy similarity points based on closeness to the user's target energy:
+
+`energy_points = max(0, 2.0 - 2.0 * abs(song_energy - target_energy))`
+
+- Total score for each song:
+
+`total_score = genre_points + mood_points + energy_points`
+
+- Tie-breakers (in order):
+   1. Higher `total_score`
+   2. Higher `energy_points`
+   3. Alphabetical by song title
+
+### Potential Biases to Watch
+
+This system may over-prioritize genre because it has the highest discrete weight (`+2.0`). That can cause it to rank same-genre songs above cross-genre songs that might match mood or energy very well. It also assumes one fixed target energy for the whole session, which can ignore users whose preferences vary by context (studying vs workouts, for example).
+
+### Features Used in This Simulation
+
+**Song features**
+- genre
+- mood
+- energy
+- tempo_bpm
+- valence
+- acousticness
+
+**UserProfile features**
+- favorite_genre
+- favorite_mood
+- target_energy
+- likes_acoustic
 
 ---
 
@@ -53,6 +84,14 @@ pip install -r requirements.txt
 ```bash
 python -m src.main
 ```
+
+### CLI Verification Snapshot
+
+Default profile used for verification: pop/happy with energy target 0.82.
+
+Observed ranking starts with Sunrise City, then Gym Hero, followed by Rooftop Lights, which is consistent with the scoring rules (genre and mood matches first, then energy closeness).
+
+![CLI Verification Output](docs/cli-verification-output.svg)
 
 ### Running Tests
 
