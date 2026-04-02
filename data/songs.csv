@@ -1,31 +1,31 @@
-id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
-11,City Cipher,Kilo Verse,hip hop,confident,0.69,96,0.66,0.84,0.12
-12,Golden Fields,Hollow Pines,folk,nostalgic,0.33,88,0.58,0.47,0.90
-13,Neon Circuit,Aero House,house,euphoric,0.89,128,0.86,0.93,0.04
-14,Iron Anthem,Crimson Forge,metal,aggressive,0.95,170,0.39,0.51,0.03
-15,Tide and Timber,Harbor Line,country,warm,0.48,102,0.74,0.59,0.63
-16,Velvet Hour,June Ivory,r&b,romantic,0.57,94,0.72,0.78,0.27
-17,Monsoon Lanterns,Saffron Pulse,world,serene,0.44,108,0.67,0.64,0.55
-18,Pixel Carnival,Bit Parade,chiptune,playful,0.83,140,0.79,0.87,0.06
-19,Blue Window,North Static,blues,melancholic,0.31,74,0.41,0.43,0.81
-20,Sunset Rua,Luna Cobre,latin,dreamy,0.72,116,0.88,0.85,0.19
-21,Orbit Sermon,Glass Harbor,trip hop,brooding,0.52,92,0.38,0.57,0.44
-22,Marble Sun,Prairie Choir,bluegrass,buoyant,0.61,126,0.76,0.69,0.58
-23,Afterglow Arcade,Nova Petals,drum and bass,restless,0.94,174,0.55,0.91,0.03
-24,Paper Kites at Dusk,Elm Avenue,singer-songwriter,tender,0.29,68,0.64,0.36,0.88
-25,Temple Echo,Monsoon Atlas,downtempo,meditative,0.34,76,0.62,0.48,0.73
-26,Copper Skyline,Rio Velvet,reggaeton,flirty,0.87,102,0.83,0.92,0.09
-27,Static Ballet,Night Quarry,post-rock,yearning,0.58,112,0.47,0.42,0.31
-28,Wildflower Riot,Velvet Daggers,punk,rebellious,0.92,168,0.61,0.74,0.07
-29,Saffron Tide,Desert Bloom,afrobeat,celebratory,0.78,118,0.89,0.88,0.16
-30,Winter Observatory,Frost Relay,classical,contemplative,0.22,64,0.51,0.21,0.95
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness,popularity,release_decade,mood_tags,instrumentalness,loudness_db,live_performance
+1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18,88,2010,euphoric|uplifting|bright,0.08,-5.5,0.14
+2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71,67,2020,calm|focused|nostalgic,0.46,-13.2,0.11
+3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10,79,2000,aggressive|driving|defiant,0.03,-4.8,0.35
+4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86,59,2020,introspective|calm|rainy,0.52,-14.5,0.07
+5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05,90,2010,euphoric|confident|driving,0.01,-4.0,0.28
+6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92,54,2010,serene|cosmic|meditative,0.73,-18.5,0.06
+7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89,63,1990,warm|laid-back|nostalgic,0.61,-16.1,0.19
+8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22,74,1980,brooding|retro|driving,0.14,-8.1,0.17
+9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78,65,2020,focused|calm|study,0.49,-12.6,0.09
+10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35,77,2010,uplifting|romantic|bright,0.10,-6.2,0.21
+11,City Cipher,Kilo Verse,hip hop,confident,0.69,96,0.66,0.84,0.12,81,2010,confident|gritty|swagger,0.05,-7.3,0.26
+12,Golden Fields,Hollow Pines,folk,nostalgic,0.33,88,0.58,0.47,0.90,62,1970,nostalgic|warm|storytelling,0.58,-15.0,0.16
+13,Neon Circuit,Aero House,house,euphoric,0.89,128,0.86,0.93,0.04,86,2010,euphoric|club|driving,0.02,-4.6,0.31
+14,Iron Anthem,Crimson Forge,metal,aggressive,0.95,170,0.39,0.51,0.03,72,2000,aggressive|ferocious|rebellious,0.01,-3.6,0.42
+15,Tide and Timber,Harbor Line,country,warm,0.48,102,0.74,0.59,0.63,66,1990,warm|nostalgic|heartland,0.20,-10.1,0.24
+16,Velvet Hour,June Ivory,r&b,romantic,0.57,94,0.72,0.78,0.27,80,2010,sensual|romantic|smooth,0.07,-8.8,0.18
+17,Monsoon Lanterns,Saffron Pulse,world,serene,0.44,108,0.67,0.64,0.55,61,2000,serene|spiritual|meditative,0.31,-11.2,0.22
+18,Pixel Carnival,Bit Parade,chiptune,playful,0.83,140,0.79,0.87,0.06,68,1990,playful|bright|hyper,0.03,-5.1,0.33
+19,Blue Window,North Static,blues,melancholic,0.31,74,0.41,0.43,0.81,58,1970,melancholic|yearning|smoky,0.36,-14.1,0.20
+20,Sunset Rua,Luna Cobre,latin,dreamy,0.72,116,0.88,0.85,0.19,84,2010,dreamy|warm|celebratory,0.09,-6.0,0.29
+21,Orbit Sermon,Glass Harbor,trip hop,brooding,0.52,92,0.38,0.57,0.44,57,1990,brooding|noir|introspective,0.25,-9.7,0.13
+22,Marble Sun,Prairie Choir,bluegrass,buoyant,0.61,126,0.76,0.69,0.58,60,1980,buoyant|acoustic|uplifting,0.12,-10.8,0.34
+23,Afterglow Arcade,Nova Petals,drum and bass,restless,0.94,174,0.55,0.91,0.03,73,2000,restless|euphoric|night,0.01,-3.9,0.27
+24,Paper Kites at Dusk,Elm Avenue,singer-songwriter,tender,0.29,68,0.64,0.36,0.88,64,2010,tender|nostalgic|intimate,0.41,-15.7,0.12
+25,Temple Echo,Monsoon Atlas,downtempo,meditative,0.34,76,0.62,0.48,0.73,56,2000,meditative|calm|spiritual,0.55,-13.7,0.08
+26,Copper Skyline,Rio Velvet,reggaeton,flirty,0.87,102,0.83,0.92,0.09,87,2020,flirty|confident|club,0.02,-5.0,0.30
+27,Static Ballet,Night Quarry,post-rock,yearning,0.58,112,0.47,0.42,0.31,55,2000,yearning|cinematic|melancholic,0.22,-8.9,0.23
+28,Wildflower Riot,Velvet Daggers,punk,rebellious,0.92,168,0.61,0.74,0.07,70,1990,rebellious|aggressive|raw,0.01,-4.2,0.41
+29,Saffron Tide,Desert Bloom,afrobeat,celebratory,0.78,118,0.89,0.88,0.16,82,2010,celebratory|euphoric|dance,0.06,-6.4,0.36
+30,Winter Observatory,Frost Relay,classical,contemplative,0.22,64,0.51,0.21,0.95,53,1980,contemplative|serene|meditative,0.88,-21.0,0.04

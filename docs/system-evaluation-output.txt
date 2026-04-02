@@ -1,0 +1,191 @@
+Loaded songs: 30
+
+Profile: High-Energy Pop
+========================================================================
+1. Sunrise City
+   Score   : 4.84
+   Reasons :
+     - genre match (+2.0)
+     - mood match (+1.0)
+     - energy closeness (+1.84)
+------------------------------------------------------------------------
+2. Gym Hero
+   Score   : 3.94
+   Reasons :
+     - genre match (+2.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.94)
+------------------------------------------------------------------------
+3. Rooftop Lights
+   Score   : 2.72
+   Reasons :
+     - no genre match (+0.0)
+     - mood match (+1.0)
+     - energy closeness (+1.72)
+------------------------------------------------------------------------
+4. Storm Runner
+   Score   : 1.98
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.98)
+------------------------------------------------------------------------
+5. Neon Circuit
+   Score   : 1.98
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.98)
+------------------------------------------------------------------------
+
+Profile: Chill Lofi
+========================================================================
+1. Library Rain
+   Score   : 5.00
+   Reasons :
+     - genre match (+2.0)
+     - mood match (+1.0)
+     - energy closeness (+2.00)
+------------------------------------------------------------------------
+2. Midnight Coding
+   Score   : 4.86
+   Reasons :
+     - genre match (+2.0)
+     - mood match (+1.0)
+     - energy closeness (+1.86)
+------------------------------------------------------------------------
+3. Focus Flow
+   Score   : 3.90
+   Reasons :
+     - genre match (+2.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.90)
+------------------------------------------------------------------------
+4. Spacewalk Thoughts
+   Score   : 2.86
+   Reasons :
+     - no genre match (+0.0)
+     - mood match (+1.0)
+     - energy closeness (+1.86)
+------------------------------------------------------------------------
+5. Temple Echo
+   Score   : 1.98
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.98)
+------------------------------------------------------------------------
+
+Profile: Deep Intense Rock
+========================================================================
+1. Storm Runner
+   Score   : 4.98
+   Reasons :
+     - genre match (+2.0)
+     - mood match (+1.0)
+     - energy closeness (+1.98)
+------------------------------------------------------------------------
+2. Gym Hero
+   Score   : 2.98
+   Reasons :
+     - no genre match (+0.0)
+     - mood match (+1.0)
+     - energy closeness (+1.98)
+------------------------------------------------------------------------
+3. Wildflower Riot
+   Score   : 2.00
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+2.00)
+------------------------------------------------------------------------
+4. Afterglow Arcade
+   Score   : 1.96
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.96)
+------------------------------------------------------------------------
+5. Iron Anthem
+   Score   : 1.94
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.94)
+------------------------------------------------------------------------
+
+Profile: Conflict Case (High Energy + Melancholic)
+========================================================================
+1. Midnight Coding
+   Score   : 3.04
+   Reasons :
+     - genre match (+2.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.04)
+------------------------------------------------------------------------
+2. Focus Flow
+   Score   : 3.00
+   Reasons :
+     - genre match (+2.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.00)
+------------------------------------------------------------------------
+3. Library Rain
+   Score   : 2.90
+   Reasons :
+     - genre match (+2.0)
+     - no mood match (+0.0)
+     - energy closeness (+0.90)
+------------------------------------------------------------------------
+4. Storm Runner
+   Score   : 1.98
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.98)
+------------------------------------------------------------------------
+5. Neon Circuit
+   Score   : 1.98
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.98)
+------------------------------------------------------------------------
+
+Profile: Out-of-Range Energy (1.20)
+========================================================================
+1. Winter Observatory
+   Score   : 3.04
+   Reasons :
+     - genre match (+2.0)
+     - mood match (+1.0)
+     - energy closeness (+0.04)
+------------------------------------------------------------------------
+2. Iron Anthem
+   Score   : 1.50
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.50)
+------------------------------------------------------------------------
+3. Afterglow Arcade
+   Score   : 1.48
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.48)
+------------------------------------------------------------------------
+4. Gym Hero
+   Score   : 1.46
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.46)
+------------------------------------------------------------------------
+5. Wildflower Riot
+   Score   : 1.44
+   Reasons :
+     - no genre match (+0.0)
+     - no mood match (+0.0)
+     - energy closeness (+1.44)
+------------------------------------------------------------------------
